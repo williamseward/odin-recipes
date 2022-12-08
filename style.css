@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 179, 39);
+}
+
+.title {
+    background-color: rgb(51, 177, 255);
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.front-page-img {
+    height: auto;
+    width: 1000px;
+    margin: auto;
+    display: block;
+}
+
+#recipe-list {
+    font-size: 28px;
+    font-family: 'Lucida Handwriting', cursive;
+    font-weight: 500;
+    list-style: circle;
+}
