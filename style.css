@@ -23,3 +23,8 @@ body {
     font-weight: 500;
     list-style: circle;
 }
+
+button {
+    background-color: rgb(51, 177, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
