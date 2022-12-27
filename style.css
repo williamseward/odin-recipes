@@ -14,6 +14,7 @@ body {
     font-family: Copperplate, Papyrus, fantasy;
     border: 0.25em double black;
     color: rgb(0, 0, 0);
+    margin: 0.25em;
 }
 
 .front-page-img {
@@ -24,11 +25,20 @@ body {
 }
 
 #recipe-list {
-    display: flex;
+    display: flex; /* inline flex list */
     font-size: 28px;
     font-family: 'Lucida Handwriting', cursive;
     font-weight: 500;
-    list-style: none;
+    list-style: none; /* no bullets */
+}
+
+#recipe-list a { /* can only use text-decoration with an anchor */
+    text-decoration: none;
+}
+
+.front-page-button a:hover {
+    background-color: rgb(255, 179, 39);
+    color: #fff;
 }
 
 button {
